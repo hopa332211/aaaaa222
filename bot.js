@@ -36,3 +36,23 @@ client.on('message', msg => {
 });
 
 client.login(process.env.BOT_TOKEN);
+
+
+
+
+
+client.on('message', msg => {
+  if (msg.content === 'كسمك') {
+    msg.reply('ابويا نك امك!');
+  }
+});
+
+client.login(process.env.BOT_TOKEN);i
+
+
+
+
+
+
+
+
